@@ -15,5 +15,7 @@ public class HelloWorld {
         LocalDate localDate = LocalDate.now();
         System.out.println("今天的日期是：" + localDate);
 
+        LocalDate date = LocalDate.of(2020,02,16);
+        System.out.println("date 的时间是:" + date);
     }
 }
